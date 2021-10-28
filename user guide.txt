@@ -1,0 +1,9 @@
+play/pause - spacebar
+stop - V
+mute/unmute - M
+volume up - arrow up
+volume down - arrow down
+skip video for 10s forward - arrow right
+skip video for 10s back - arrow left
+exit full screen - ESC
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container" id="container">
+            <video src="goal.mp4" id="video">
+                <source src="goal.mp4" type="goal/mp4">
+            </video>
+            <div class="control" id="control">
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress-bar-filled" id="progress-bar-filled">
+                        
+                    </div>
+                </div>
+                <div class="buttons" id="buttons">
+                    <div class="buttons-group">
+                        <img class="play-pause" id="play-pause" src="images/play.png">
+                        <img class="stop" id="stop" src="images/stop.png">
+                        <img class="volume-btn" id="volume-btn" src="images/volume.png">
+                        <input type="range" class="volume" id="volume" min="0" max="100" step="1" value="100">
+                        <div class="time">
+                            <span class="current" id="current">0:00</span> / <span class="duration" id="duration">0:00</span>
+                        </div>
+                    </div>
+                    <div class="buttons-group">
+                        <img class="settings" id="settings" src="images/settings.png">
+                            <div class="speed-menu" id="speed-menu">
+                                <button class="0.5x speed" id="0.5x">0.5x</button>
+                                <button class="0.75x speed" id="0.75x">0.75x</button>
+                                <button class="1x speed" id="1x">1x</button>
+                                <button class="1.5x speed" id="1.5x">1.5x</button>
+                                <button class="2x speed" id="2x">2x</button>
+                            </div>    
+                            <img src="images/full-screen.png" alt="full-screen" class="full-screen" id="full-screen">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
